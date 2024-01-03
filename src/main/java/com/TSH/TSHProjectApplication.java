@@ -1,13 +1,13 @@
-package com.erp;
+package com.TSH;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ErpTallyProjectApplication {
+public class TSHProjectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ErpTallyProjectApplication.class, args);
+		SpringApplication.run(TSHProjectApplication.class, args);
 	}
 
 }

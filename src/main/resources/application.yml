@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: Pass123
-    url: jdbc:mysql://localhost:3306/ERPTallyProject
+    password: root
+    url: jdbc:mysql://localhost:3306/teachers
     username: root
   jpa:
     hibernate:
@@ -15,5 +15,18 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
     show-sql: true
     
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: kalyan9751@gmail.com
+    password: oixo kjme ccfo drpd
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true  
+    
+
+
 
     
